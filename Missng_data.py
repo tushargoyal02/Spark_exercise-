@@ -7,6 +7,7 @@
 # df.na. (methods) are used to drop the items present in data
 
 from pyspark.sql import SparkSession
+#making sparksession as for each different used 
 
 
 # In[11]:
@@ -28,7 +29,9 @@ df.show()
 
 
 # In[14]:
-
+# to get mean and all values 
+df.describe()
+df.mean()
 
 df.describe().show()
 
